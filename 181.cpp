@@ -57,6 +57,6 @@ int main() {
     nazar.getData();
 
 
-
+    cout << "5";
     return 0;
 }
