@@ -15,7 +15,7 @@ public:
         group = c;
     }
     void getData() {
-        cout << name << " " << surname << "\t" << group << "-é êóðñ" << endl;
+        cout << name << " " << surname << "\t" << group << "-Ã© ÃªÃ³Ã°Ã±" << endl;
     }
     friend child;
 };
@@ -27,7 +27,7 @@ public:
     }
 
     void getChangeData(schoolchild obj) {
-        cout << obj.name << " " << obj.surname << "\t ïåðåâåäåíèé(à) íà " << obj.group << "-é êóðñ" << endl;
+        cout << obj.name << " " << obj.surname << "\t Ã¯Ã¥Ã°Ã¥Ã¢Ã¥Ã¤Ã¥Ã­Ã¨Ã©(Ã ) Ã­Ã  " << obj.group << "-Ã© ÃªÃ³Ã°Ã±" << endl;
     }
 };
 
@@ -38,7 +38,7 @@ int main() {
     schoolchild marian("Marian", "Dolynskyi", 3);
     schoolchild nazar("Nazar", "Slobodyanyk", 3);
 
-    cout << "Íà 3 êóðñi: " << endl;
+    cout << "ÃÃ  3 ÃªÃ³Ã°Ã±i: " << endl;
     arsen.getData();
     marian.getData();
     nazar.getData();
@@ -48,15 +48,15 @@ int main() {
     transfer.changeClass(marian, 4);
 
     cout << endl;
-    cout << "Íà 4 êóðñi: " << endl;
+    cout << "ÃÃ  4 ÃªÃ³Ã°Ã±i: " << endl;
     transfer.getChangeData(arsen);
     transfer .getChangeData(marian);
 
     cout << endl;
-    cout << "Íà 3 êóðñi: " << endl;
+    cout << "ÃÃ  3 ÃªÃ³Ã°Ã±i: " << endl;
     nazar.getData();
 
-
-    cout << "5";
+    
+    cout << "6";
     return 0;
 }
